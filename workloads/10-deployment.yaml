@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: docker-repo.vpc.locusdev.net/stephenapp:1.2.0
+        image: docker-repo.vpc.locusdev.net/stephenapp:release-1.4.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080

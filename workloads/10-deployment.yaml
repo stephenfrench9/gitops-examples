@@ -1,10 +1,16 @@
 ---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: demo
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
     app: hellokube
   name: hellokube
+  namespace: demo
 spec:
   replicas: 1
   selector:

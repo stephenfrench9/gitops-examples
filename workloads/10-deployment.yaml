@@ -6,6 +6,8 @@ metadata:
     app: hellokube
   name: hellokube
   namespace: demo
+  annotations:
+    fluxcd.io/automated: 'true'
 spec:
   replicas: 1
   selector:

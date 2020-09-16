@@ -1,0 +1,1 @@
+{"jobID":"2d0af6bc-b991-ad29-ae51-e480362a71d4","spec":{"type":"policy","cause":{"Message":"","User":"Stephen French \u003cstephen.french@invitae.com\u003e"},"spec":{"demo:deployment/hellokube":{"add":{"automated":"true"},"remove":{}}}},"result":null}
